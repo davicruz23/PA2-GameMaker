@@ -33,7 +33,19 @@ if (done == 0)
 	}
 
 	y = y + vsp;
-
+	
+	
 
 }
 
+if (done == 1)
+{
+    if (timer > 0)
+    {
+        timer -= 1; // Decrementa o contador
+    }
+    else
+    {
+        instance_destroy(); // Destroi a instância
+    }
+}

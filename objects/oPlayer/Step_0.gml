@@ -14,6 +14,12 @@ if(place_meeting(x,y+1,oWall)) && (key_jump)
 {
 	vsp = -7;
 }
+if (key_jump && jumps > 0)
+{
+    vsp = -7; // Define a velocidade vertical para o pulo
+    jumps -= 1; // Reduz a quantidade de pulos disponíveis
+}
+
 
 // colisao horizontal
 
