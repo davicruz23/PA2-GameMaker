@@ -1,3 +1,3 @@
 instance_destroy()
 
-global.fruit +=1;
+global.vidro +=1;
