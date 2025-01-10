@@ -1,3 +1,3 @@
 instance_destroy();
 
-obj_jogo.paper +=1;
+global.paper +=1;
