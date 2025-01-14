@@ -5,3 +5,5 @@ walksp =4;
 global.hascontrol = true;
 jumps = 2;
 
+vida = 5;
+hit_timer = 0;

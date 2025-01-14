@@ -76,7 +76,9 @@ else
 if (hsp != 0) image_xscale = sign (hsp);
 
 
-
+if (hit_timer > 0) {
+    hit_timer -= 1;
+}
 
 
 
