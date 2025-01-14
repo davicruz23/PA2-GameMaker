@@ -3,9 +3,9 @@
 
 with(oPlayer)
 {	
-	if (hascontrol)
+	if (global.hascontrol)
 	{
-		hascontrol = false;
+		global.hascontrol = false;
 		SlideTransition(TRANS_MODE.GOTO,other.target);
 		
 	}
