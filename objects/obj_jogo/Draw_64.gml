@@ -9,5 +9,9 @@ draw_text(90, 110, "Papel " + string(global.paper));
 draw_text(90, 130, "Vidro " + string(global.vidro));
 draw_text(130, 160, "Pontuação " + string(global.pontos));
 
-// Agora desenhe as vidas com a mesma formatação
-draw_text(100, 200, "Vidas: " + string(oPlayer.vida));  // Acessa e desenha as vidas
+// Verifica se a instância do jogador ainda existe antes de desenhar as vidas
+if (instance_exists(oPlayer)) {
+    draw_text(100, 200, "Vidas: " + string(oPlayer.vida));  // Desenha as vidas se o jogador existir
+} else {
+    draw_text(100, 200, "Vidas: 0");  // Alternativa para quando o jogador não existir
+}
