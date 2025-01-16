@@ -1,17 +1,30 @@
+// Define a fonte e a cor
 draw_set_font(ft_interface);  // Certifique-se de usar a mesma fonte
-draw_set_color(c_white);  // Defina a cor que você quer para o texto
+draw_set_color(c_black);  // Define a cor que você quer para o texto
 
-// Desenhando a pontuação ou outras informações
-draw_text(90, 50, "Metal " + string(global.aluminum));
-draw_text(120, 70, "Plástico " + string(global.plastic));
-draw_text(120, 90, "Orgânico " + string(global.fruit));
-draw_text(90, 110, "Papel " + string(global.paper));
-draw_text(90, 130, "Vidro " + string(global.vidro));
-draw_text(130, 160, "Pontuação " + string(global.pontos));
+// Configura o alinhamento horizontal para esquerda
+draw_set_halign(fa_left);  // Alinha à esquerda
+draw_set_valign(fa_top);   // Alinha ao topo
 
-// Verifica se a instância do jogador ainda existe antes de desenhar as vidas
+// Coordenadas fixas da tela
+var x_start = 50;  // Posição inicial no eixo X
+var y_fixed = 50;  // Posição fixa no eixo Y
+
+// String de informações concatenadas
+var info = "    Metal: " + string(global.aluminum) + " | " +
+           "Plástico: " + string(global.plastic) + " | " +
+           "Orgânico: " + string(global.fruit) + " | " +
+           "Papel: " + string(global.paper) + " | " +
+           "Vidro: " + string(global.vidro);
+
+// Adiciona mais espaçamento antes de "Pontuação" e "Vidas"
+info += "                    | Pontuação: " + string(global.pontos); // Mais espaços antes de "Pontuação"
+
 if (instance_exists(oPlayer)) {
-    draw_text(100, 200, "Vidas: " + string(oPlayer.vida));  // Desenha as vidas se o jogador existir
+    info += "      | Vidas: " + string(oPlayer.vida);  // Mais espaços antes de "Vidas"
 } else {
-    draw_text(100, 200, "Vidas: 0");  // Alternativa para quando o jogador não existir
+    info += "      | Vidas: 0";  // Mais espaços antes de "Vidas" quando o jogador não existe
 }
+
+// Desenha todas as informações em uma única linha
+draw_text(x_start, y_fixed, info);
