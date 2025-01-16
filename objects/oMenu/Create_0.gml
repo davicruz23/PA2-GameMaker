@@ -15,7 +15,6 @@ menu_control = true;
 menu [2] = "Novo Jogo";
 menu [1] = "Continuar"
 menu [0] = "Sair"
-menu [3] = "TestarR3"
 
 menu_items = array_length_1d(menu);
 menu_cursor = 2;
