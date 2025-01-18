@@ -24,6 +24,8 @@ if (done == 0)
 		{
 			done = 1;
 			image_index = 1;
+			
+			audio_play_sound(mortPersonFinal, 1, false);
 		}
 		while(!place_meeting(x,y+sign(vsp),oWall))
 		{

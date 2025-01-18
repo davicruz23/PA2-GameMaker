@@ -33,6 +33,7 @@ if (mode != TRANS_MODE.OFF)
 		}
 		case TRANS_MODE.RESTART:
 		{	
+			/*aqui ele reseta*/reset_globals();
 			game_restart();
 			break;
 		}

@@ -1,13 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"oPlayerDead",
+  "%Name":"obj_music_control",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":82,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oPlayerDead",
+  "name":"obj_music_control",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -31,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sPlayerDead",
-    "path":"sprites/sPlayerDead/sPlayerDead.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
