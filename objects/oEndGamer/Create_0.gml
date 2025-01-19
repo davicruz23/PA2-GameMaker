@@ -1,5 +1,3 @@
-global.pontos = 0
-
 // Desenha um fundo semi-transparente para o Game Over
 draw_set_alpha(0.7);
 draw_rectangle_color(0, 0, display_get_width(), display_get_height(), c_black, c_black, c_black, c_black, false);

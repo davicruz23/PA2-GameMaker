@@ -13,9 +13,9 @@ draw_set_color(c_white); // Cor do texto
 draw_text(display_get_gui_width() / 2, display_get_gui_height() / 2 - 50, "FIM DE JOGO, VOCÊ CONCLUIU TODAS AS FASES!");
 
 // Pontuação do jogador
-if (variable_global_exists("pontoFinal")) // Verifica se a variável de pontuação existe
+if (variable_global_exists("pontos")) // Verifica se a variável de pontuação existe
 {
-    draw_text(display_get_gui_width() / 2, display_get_gui_height() / 2, "Pontuação: " + string(global.pontoFinal));
+    draw_text(display_get_gui_width() / 2, display_get_gui_height() / 2, "Pontuação: " + string(global.pontos));
 }
 else
 {

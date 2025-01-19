@@ -1,4 +1,4 @@
-global.pontos = 0
+
 
 // Desenha um fundo semi-transparente para o Game Over
 draw_set_alpha(0.7);

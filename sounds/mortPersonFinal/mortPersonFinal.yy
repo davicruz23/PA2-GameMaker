@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.692542,
+  "duration":1.392,
   "name":"mortPersonFinal",
   "parent":{
     "name":"Sons",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"mortPersonFinal.ogg",
+  "soundFile":"mortPersonFinal.mp3",
   "type":0,
   "volume":1.0,
 }

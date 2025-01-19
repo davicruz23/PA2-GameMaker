@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.64,
+  "duration":0.311701,
   "name":"somPistola",
   "parent":{
     "name":"Sons",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"somPistola.wav",
   "type":0,
-  "volume":0.46,
+  "volume":1.0,
 }
