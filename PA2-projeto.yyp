@@ -44,7 +44,11 @@
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"oColetar","path":"objects/oColetar/oColetar.yy",},},
     {"id":{"name":"oDead","path":"objects/oDead/oDead.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"oEndGamer","path":"objects/oEndGamer/oEndGamer.yy",},},
+=======
+    {"id":{"name":"oDicaColeta","path":"objects/oDicaColeta/oDicaColeta.yy",},},
+>>>>>>> c69002282ad3e9d551a55f4ac0a99ae303568906
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
     {"id":{"name":"oFruit","path":"objects/oFruit/oFruit.yy",},},
     {"id":{"name":"oGameOver","path":"objects/oGameOver/oGameOver.yy",},},
