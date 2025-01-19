@@ -26,6 +26,7 @@
     {"name":"oCamera","order":7,"path":"objects/oCamera/oCamera.yy",},
     {"name":"oColetar","order":34,"path":"objects/oColetar/oColetar.yy",},
     {"name":"oDead","order":6,"path":"objects/oDead/oDead.yy",},
+    {"name":"oDicaColeta","order":48,"path":"objects/oDicaColeta/oDicaColeta.yy",},
     {"name":"oEndGamer","order":46,"path":"objects/oEndGamer/oEndGamer.yy",},
     {"name":"oEnemy","order":5,"path":"objects/oEnemy/oEnemy.yy",},
     {"name":"oFruit","order":10,"path":"objects/oFruit/oFruit.yy",},
