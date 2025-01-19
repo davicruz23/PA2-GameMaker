@@ -18,7 +18,8 @@ var info = "    Metal: " + string(global.aluminum) + " | " +
            "Vidro: " + string(global.vidro);
 
 // Adiciona mais espaçamento antes de "Pontuação" e "Vidas"
-info += "                    | Pontuação: " + string(global.pontos); // Mais espaços antes de "Pontuação"
+info += "                    | Pontuação: " + string(global.pontos);
+
 
 if (instance_exists(oPlayer)) {
     info += "      | Vidas: " + string(oPlayer.vida);  // Mais espaços antes de "Vidas"

@@ -8,6 +8,6 @@ global.plastic = 0;
 global.fruit = 0;
 global.paper = 0;
 global.vidro = 0;
-global.pontos = 0;
+//global.pontos = 0;
 
 }

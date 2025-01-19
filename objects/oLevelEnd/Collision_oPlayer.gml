@@ -4,5 +4,7 @@ if (room_next(room) != -1)
 }
 else 
 {
-    room_goto(Menu);
+	instance_create_depth(0, 0, -100, oEndGamer);
+	reset_globals();
+    alarm[0] = room_speed * 3;
 }

@@ -3,6 +3,13 @@ gui_width = display_get_gui_width();
 gui_height = display_get_gui_height();
 gui_margin = 32;
 
+inicia_som = true;
+
+// Verifica se a música já está tocando antes de iniciar
+if (inicia_som && !audio_is_playing(musicFundo)) {
+    audio_play_sound(musicFundo, 1, true);
+}
+
 // Posição inicial do menu (centralizado na tela)
 menu_x = gui_width / 2;
 menu_y = gui_height / 2;
@@ -23,5 +30,3 @@ menu[0] = "Sair";
 // Total de itens no menu
 menu_items = array_length_1d(menu);
 menu_cursor = 2;  // Começa com o item "Novo Jogo"
-
-
